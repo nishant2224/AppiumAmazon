@@ -2,7 +2,7 @@ version: '3'
 
 services:
   firefox:
-    image: selenium/node-chrome
+    image: selenium/standalone-firefox
     hostname: firefox
     shm_size: 2gb
     ports:
