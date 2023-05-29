@@ -16,7 +16,7 @@ public class BaseClass {
 	  @BeforeSuite
 	  public void startContainer() throws InterruptedException{
 		  commonMethods.runTerminalCommand("docker-compose up","Docker Container starting");
-		  Thread.sleep(10000);
+		  Thread.sleep(30000);
 	  }
 	  @BeforeTest
 	  public void setUp() throws MalformedURLException {
